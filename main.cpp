@@ -9,7 +9,10 @@
 // -- INFOS -- //
 
 std::string RobloxUrl = "https://www.roblox.com";
-long long int TargetFavoriteItem = 17315767016; // Change this with your target item's asset id
+long long int TargetFavoriteItem = 15556784020; // Change this with your target item's asset id (Works with games aswell but you can purchase games)
+bool IsBuyingEnabled = false; // Set it to true if you want accounts to buy it (Dont use this if the target is a game)
+long long int TargetFavoriteItemProduct = 22; // Product id of target item
+int TargetItemPrice = 0; // Price of target item
 
 // -- Functions and Main -- //
 
@@ -66,6 +69,21 @@ void FavTarget(long long int TargetID) {
         nlohmann::json UseridJson = ToJson(UseridResponse.text);
         long long int MyUserId = UseridJson["data"][0]["id"];
 
+        if (IsBuyingEnabled) {
+            // Purchase the target thing
+            std::string BuyUrl = "https://apis.roblox.com/creator-marketplace-purchasing-service/v1/products/" + std::to_string(TargetID) + "/purchase";
+            nlohmann::json BuyBody;
+            BuyBody["expectedPrice"] = TargetItemPrice;
+            BuyBody["expectedSellerId"] = 1;
+            BuyBody["expectedCurrency"] = 1;
+
+            newsession.SetUrl(cpr::Url(BuyUrl.c_str()));
+            newsession.SetBody(cpr::Body(BuyBody.dump()));
+            newsession.Post();
+        }
+
+
+        // Favorite it
         newsession.SetBody(cpr::Body()); // Set body to nothing
 
         std::string TargetUrl = "https://catalog.roblox.com/v1/favorites/users/" + std::to_string(MyUserId) + "/assets/" + std::to_string(TargetID) + "/favorite";
