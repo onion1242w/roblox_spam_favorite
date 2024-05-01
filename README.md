@@ -22,7 +22,7 @@ Username is not needed but its looks better with it.
 ## How to Use
 1. Install dependencies: `vcpkg install cpr nlohmann_json`
 2. Build the project with CMake
-3. Run the Gen.exe in build->Debug (Debug is changed with Release if release variant is selected)
+3. Run the Gen.exe in build->Debug (Select Debug as variant)
 
 ## Configuration
 Edit the `// -- INFOS -- //` variables at `main.cpp` file (variables are explained in the code)
