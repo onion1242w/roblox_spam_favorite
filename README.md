@@ -17,7 +17,6 @@ Change the Accounts.txt as you want **BUT** Always add the accounts like this:
 Username: HelloUser
 Cookie: cookieHere
 ```
-Username is not needed but its looks better with it.
 
 ## How to Use
 1. Install dependencies: `vcpkg install cpr nlohmann_json`
