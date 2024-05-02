@@ -1,3 +1,4 @@
+[![Version](https://img.shields.io/github/v/release/onion1242w/roblox_spam_favorite?color=7a39fb)](https://github.com/onion1242w/roblox_spam_favorite/Releases/latest)
 # Roblox favoriter
 This c++ script automates favoriting something you would like. (models mostly)
 The main goal of this project is educational, demonstrating how requests work in c++
