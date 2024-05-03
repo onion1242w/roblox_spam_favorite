@@ -14,6 +14,9 @@ A code editor for this is recommended.
 
 ## Important Note 2
 Change the Accounts.txt as you want **BUT** Always add the accounts like this:
+
+## Important Note 3
+If you used this too much i suggest using a vpn. (Theres reasons for that trust me)
 ```
 Username: HelloUser
 Cookie: cookieHere
