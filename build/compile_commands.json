@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/omhak/Downloads/roblox_spam_favorite-main/roblox_spam_favorite-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Gen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Gen.dir\\main.cpp.obj -c C:\\Users\\omhak\\Downloads\\roblox_spam_favorite-main\\roblox_spam_favorite-main\\main.cpp",
+  "file": "C:/Users/omhak/Downloads/roblox_spam_favorite-main/roblox_spam_favorite-main/main.cpp",
+  "output": "CMakeFiles/Gen.dir/main.cpp.obj"
+}
+]

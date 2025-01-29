@@ -1,0 +1,1 @@
+ "C:/Users/omhak/vcpkg/installed/x64-windows/lib/cpr.lib" "C:/Users/omhak/vcpkg/installed/x64-windows/lib/libcurl.lib" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
