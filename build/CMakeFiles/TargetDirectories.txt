@@ -1,0 +1,3 @@
+C:/Users/omhak/Downloads/roblox_spam_favorite-main/roblox_spam_favorite-main/build/CMakeFiles/Gen.dir
+C:/Users/omhak/Downloads/roblox_spam_favorite-main/roblox_spam_favorite-main/build/CMakeFiles/edit_cache.dir
+C:/Users/omhak/Downloads/roblox_spam_favorite-main/roblox_spam_favorite-main/build/CMakeFiles/rebuild_cache.dir

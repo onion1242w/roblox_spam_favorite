@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Gen.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Gen.dir/objects.a @CMakeFiles\Gen.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\Gen.dir/objects.a -Wl,--no-whole-archive -o Gen.exe -Wl,--out-implib,libGen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Gen.dir\linkLibs.rsp
